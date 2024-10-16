@@ -64,7 +64,7 @@ function boolean (numero){
     if (numero > 0){
         return 'True'
     }
-    else if (numero < 0){
+    else if (numero <= 0){
         return 'False'
     }
 }
